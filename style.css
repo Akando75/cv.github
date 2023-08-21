@@ -1,0 +1,108 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.container{
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid white;
+    float: left;
+}
+.bio{
+margin: 10px;
+padding: 10px;
+float: left;
+}
+h1,h2,h4,h3,h5,h6{
+    color: rgba(9, 21, 145, 0.863);
+}
+.link{
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
+.link h4 a{
+    text-decoration: none;
+}
+.link h4 a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+.hr{
+    border: 3px solid black;
+    margin: 30px auto;
+    width: 100%;
+    border-bottom: none;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+.common-hr{
+    border: solid black 2px;
+    border-bottom: none;
+    margin: 10px auto;
+    width: 100%;
+}
+#left-div{
+    width: 45%;
+    float: left;
+}
+#right-div{
+    width: 45%;
+    float: right;
+}
+#left-div1{
+    width: 45%;
+    float: left;
+}
+#right-div2{
+    width: 45%;
+    float: right;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+        height: 90px;
+    }
+   
+.footer a{
+    text-decoration: none;
+    font-size: 25px;
+  color: white;
+    margin: 15px;
+}
+.footer p{
+    margin: 20px;
+    font-size: 20px;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: darkorange;
+}
+.footer p:hover{
+    text-decoration: underline;
+    color: yellow;
+}
